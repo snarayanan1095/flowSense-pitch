@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowSense - Investor Pitch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">FlowSense</div>
+                <div class="nav-buttons">
+                    <button class="nav-btn" data-section="0">Home</button>
+                    <button class="nav-btn" data-section="1">Problem</button>
+                    <button class="nav-btn" data-section="2">Solution</button>
+                    <button class="nav-btn" data-section="3">Features</button>
+                    <button class="nav-btn" data-section="4">Market</button>
+                    <button class="nav-btn" data-section="5">Technology</button>
+                    <button class="nav-btn" data-section="6">Business</button>
+                    <button class="nav-btn" data-section="7">Team</button>
+                    <button class="nav-btn" data-section="8">Financials</button>
+                    <button class="nav-btn" data-section="9">Investment</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Opening -->
+    <section class="section hero-section" id="section-0">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">FlowSense</h1>
+                <p class="hero-tagline">AI-powered menstrual care built for comfort, ease, and long-term health insights to unlock smarter periods and better health</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="38.9">0</div>
+                        <div class="stat-label">$38.9B Global Feminine Hygiene Market</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="273">0</div>
+                        <div class="stat-label">$273M Menstrual Cup Market</div>
+                    </div>
+                </div>
+                <button class="btn btn--primary btn--lg cta-button" onclick="scrollToSection(1)">
+                    View Our Pitch
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Problem -->
+    <section class="section problem-section" id="section-1">
+        <div class="container">
+            <h2 class="section-title">The Unmet Need in Menstrual Care</h2>
+            <p class="section-subtitle">Even with modern solutions, menstrual care still comes with anxiety</p>
+            
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">❓</div>
+                    <h3>Uncertainty About Positioning</h3>
+                    <p>Women struggle with proper cup positioning and fit, leading to discomfort and anxiety</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🚨</div>
+                    <h3>Fear of Unexpected Leaks</h3>
+                    <p>Concerns about leaks in public settings undermine confidence and daily activities</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">📊</div>
+                    <h3>Lack of Personalized Insights</h3>
+                    <p>Generic tracking apps provide no meaningful personalized health data</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🔒</div>
+                    <h3>Privacy Concerns</h3>
+                    <p>Existing solutions compromise user privacy by sharing sensitive health data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Solution -->
+    <section class="section solution-section" id="section-2">
+        <div class="container">
+            <h2 class="section-title">Introducing FlowSense Smart Menstrual Cup</h2>
+            <p class="section-subtitle">Stop Guessing. Start Knowing.</p>
+            
+            <div class="solution-content">
+                <div class="product-showcase">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/9984315c-f226-4967-82b4-23200fc93e3a.png" 
+                         alt="FlowSense Smart Menstrual Cup" class="product-image">
+                </div>
+                <div class="solution-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Intelligent Flow Monitoring</h3>
+                        <p>Real-time positioning feedback and leak prevention alerts</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Privacy-First Personalized Insights</h3>
+                        <p>Encrypted, localized data with personalized cycle analytics</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💎</div>
+                        <h3>Ergonomic Design</h3>
+                        <p>Medical-grade silicone with comfort-focused engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Features Deep Dive -->
+    <section class="section features-section" id="section-3">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            
+            <div class="features-tabs">
+                <button class="tab-btn active" data-tab="monitoring">Flow Monitoring</button>
+                <button class="tab-btn" data-tab="insights">Personalized Insights</button>
+                <button class="tab-btn" data-tab="design">Ergonomic Design</button>
+            </div>
+
+            <div class="tab-content active" id="monitoring">
+                <div class="feature-detail">
+                    <div class="feature-text">
+                        <h3>Intelligent Flow Monitoring</h3>
+                        <p>Our smart sensors provide real-time feedback on cup positioning and capacity, ensuring optimal placement and preventing leaks before they happen.</p>
+                        <ul class="feature-benefits">
+                            <li>Real-time positioning feedback</li>
+                            <li>Leak prevention alerts</li>
+                            <li>Capacity monitoring with smart notifications</li>
+                            <li>Optimal seal confirmation</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/d425e8e1-6f08-4341-a403-928023854b76.png" 
+                             alt="FlowSense App Interface" class="app-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="insights">
+                <div class="feature-detail">
+                    <div class="feature-text">
+                        <h3>Privacy-First Personalized Insights</h3>
+                        <p>Gain unprecedented understanding of your unique cycle patterns while maintaining complete control over your personal health data.</p>
+                        <ul class="feature-benefits">
+                            <li>Encrypted, localized data storage</li>
+                            <li>Personalized cycle analytics</li>
+                            <li>User-controlled data sharing</li>
+                            <li>Advanced pattern recognition</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="privacy-graphic">
+                            <div class="data-flow">
+                                <div class="data-point encrypted">🔒 Your Data</div>
+                                <div class="arrow">→</div>
+                                <div class="data-point local">📱 Local Storage</div>
+                                <div class="arrow">→</div>
+                                <div class="data-point insights">📊 Personal Insights</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="design">
+                <div class="feature-detail">
+                    <div class="feature-text">
+                        <h3>Ergonomic Design Excellence</h3>
+                        <p>Years of research and user feedback have culminated in a design that ensures effortless insertion, secure fit, and unparalleled comfort.</p>
+                        <ul class="feature-benefits">
+                            <li>Medical-grade silicone construction</li>
+                            <li>Comfort-focused engineering</li>
+                            <li>Easy insertion and removal</li>
+                            <li>Anatomically optimized shape</li>
+                        </ul>
+                    </div>
+                    <div class="feature-visual">
+                        <div class="design-highlights">
+                            <div class="design-point">
+                                <div class="design-icon">🩺</div>
+                                <p>Medical Grade</p>
+                            </div>
+                            <div class="design-point">
+                                <div class="design-icon">💪</div>
+                                <p>Flexible Design</p>
+                            </div>
+                            <div class="design-point">
+                                <div class="design-icon">✨</div>
+                                <p>Ultra Comfortable</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Market Opportunity -->
+    <section class="section market-section" id="section-4">
+        <div class="container">
+            <h2 class="section-title">Massive Market Opportunity</h2>
+            <p class="section-subtitle">Positioned at the intersection of rapidly growing markets</p>
+            
+            <div class="market-stats">
+                <div class="market-stat">
+                    <div class="stat-visual">
+                        <div class="stat-circle">
+                            <span class="stat-number-large" data-target="1.05">0</span>
+                            <span class="stat-unit">$B</span>
+                        </div>
+                    </div>
+                    <h3>Menstrual Cup Market</h3>
+                    <p>CAGR: 4.38%</p>
+                </div>
+                <div class="market-stat">
+                    <div class="stat-visual">
+                        <div class="stat-circle">
+                            <span class="stat-number-large" data-target="8.5">0</span>
+                            <span class="stat-unit">$B</span>
+                        </div>
+                    </div>
+                    <h3>Femtech Market</h3>
+                    <p>CAGR: 8.88%</p>
+                </div>
+                <div class="market-stat">
+                    <div class="stat-visual">
+                        <div class="stat-circle">
+                            <span class="stat-number-large" data-target="13.75">0</span>
+                            <span class="stat-unit">$B</span>
+                        </div>
+                    </div>
+                    <h3>Smart Health Devices</h3>
+                    <p>CAGR: 23.1%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Technology & IP -->
+    <section class="section technology-section" id="section-5">
+        <div class="container">
+            <h2 class="section-title">Technology & Intellectual Property</h2>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🔬</div>
+                    <h3>Smart Sensor Technology</h3>
+                    <p>Proprietary sensor array for flow monitoring and positioning detection</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📱</div>
+                    <h3>Mobile App Integration</h3>
+                    <p>Seamless Bluetooth connectivity with advanced analytics dashboard</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🛡️</div>
+                    <h3>Privacy Architecture</h3>
+                    <p>End-to-end encryption with local data processing capabilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Business Model -->
+    <section class="section business-section" id="section-6">
+        <div class="container">
+            <h2 class="section-title">Business Model & Revenue Streams</h2>
+            
+            <div class="revenue-streams">
+                <div class="revenue-card">
+                    <h3>Device Sales</h3>
+                    <div class="revenue-amount">$89</div>
+                    <p>Premium smart menstrual cup with 2-year warranty</p>
+                </div>
+                <div class="revenue-card">
+                    <h3>Subscription Services</h3>
+                    <div class="revenue-amount">$4.99/mo</div>
+                    <p>Advanced analytics and personalized health insights</p>
+                </div>
+                <div class="revenue-card">
+                    <h3>B2B Partnerships</h3>
+                    <div class="revenue-amount">Enterprise</div>
+                    <p>Healthcare providers and research institutions</p>
+                </div>
+            </div>
+
+            <div class="go-to-market">
+                <h3>Go-to-Market Strategy</h3>
+                <div class="gtm-phases">
+                    <div class="phase">
+                        <div class="phase-number">1</div>
+                        <div class="phase-content">
+                            <h4>Direct-to-Consumer Launch</h4>
+                            <p>Online sales through company website and partnerships</p>
+                        </div>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-number">2</div>
+                        <div class="phase-content">
+                            <h4>Retail Expansion</h4>
+                            <p>Pharmacy chains and healthcare retail partnerships</p>
+                        </div>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-number">3</div>
+                        <div class="phase-content">
+                            <h4>Healthcare Integration</h4>
+                            <p>Clinical partnerships and insurance coverage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 10: Investment Ask -->
+    <section class="section investment-section" id="section-9">
+            <div class="contact-section">
+                <h3>Ready to Join Us?</h3>
+                <p>Let's revolutionize women's health together</p>
+                <div class="contact-buttons">
+                    <button class="btn btn--primary btn--lg">Schedule a Meeting</button>
+                    <button class="btn btn--outline btn--lg">Download Pitch Deck</button>
+                </div>
+                <div class="contact-info">
+                    <p>FlowSense | Innovating Women's Health</p>
+                    <p> shwnlabs@gmail.com | +1 857-991-6882</p>
+                </div>
+            </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
